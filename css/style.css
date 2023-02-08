@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Ubuntu&display=swap');
+
+table {
+    width: 1143px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 25px solid #3A4965;
+    font-family: 'Arimo', sans-serif;
+}
+
+/*=====Header of table======*/
+
+.header-table {
+    border: 10px solid #3A4965;
+}
+
+tr td {
+    border: 1px solid #E3E3E3;
+    border-collapse: collapse;
+}
+
+.bgd-title {
+    width: 201px;
+    height: 115px;
+    background-color: #FAFAFA;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #484848;
+}
+
+.bgd-title span {
+    font-size: 20px;
+}
+
+.name-columns {
+    width: 160px;
+    height: 89px;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 26px;
+}
+
+/*===== END Header of table======*/
+
+/*=====Body of table======*/
+
+tbody tr td {
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #484848;
+    position: relative;
+}
+
+.bgd-color1 { 
+    width: 198px;
+    height: 164px;
+    background-color: #89C331;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-name {
+    position: absolute;
+    top: 20px;
+}
+
+.bgd-color2 {
+    width: 198px;
+    height: 164px;
+    background-color: #F04A56;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.price {
+    font-size: 36px;
+    position: absolute;
+    top: 66px;
+    left: 10px;
+}
+
+.price-cents {
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.price::after {
+    content: "per month";
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: -5px;
+    left: 25px;
+}
+
+.bgd-color3 {
+    width: 198px;
+    height: 164px;
+    background-color: #20807C;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.light-grey-column {
+    background-color: #F2F2F2;
+}
+
+.grey-column {
+    background-color: #E3E3E3;
+}
+
+.button-buy {
+    width: 147px;
+    height: 44px;
+    background-color: #414141;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    position: absolute;
+    top: 102px;
+    left: 25px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 1px 5px #343434;
+}
+
+/*===== END Body of table======*/
